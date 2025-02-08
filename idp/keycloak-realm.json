@@ -1,0 +1,13 @@
+{
+  "realm": "sectestapp",
+  "enabled": true,
+  "clients": [
+    {
+      "clientId": "staui",
+      "enabled": true,
+      "redirectUris": ["http://localhost:8005/login"],
+      "clientAuthenticatorType": "client-secret",
+      "publicClient": false
+    }
+  ]
+}
