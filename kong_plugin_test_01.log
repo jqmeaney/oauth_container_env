@@ -1,0 +1,553 @@
+2025/03/06 20:11:13 [warn] 1#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /usr/local/kong/nginx.conf:6
+nginx: [warn] the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /usr/local/kong/nginx.conf:6
+2025/03/06 20:11:13 [debug] 1#0: [lua] globalpatches.lua:10: installing the globalpatches
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:474: init(): [dns-client] noSynchronisation = nil
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, AAAA, CNAME
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:13 [debug] 1#0: [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:13 [info] 1#0: [lua] node.lua:289: new(): kong node-id: 28c37a69-9afc-4b5d-8cb9-9aee48de3160
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:13 [debug] 1#0: [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:13 [debug] 1#0: [lua] vaults.lua:52: load_vault(): Loading vault: env
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: jwt
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'jwt.jwt_secrets'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: acl
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'acl.acls'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: correlation-id
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: cors
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: oauth2
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'oauth2.oauth2_credentials'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'oauth2.oauth2_authorization_codes'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'oauth2.oauth2_tokens'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: tcp-log
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: udp-log
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: file-log
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: http-log
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: key-auth
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'key-auth.keyauth_credentials'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: hmac-auth
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'hmac-auth.hmacauth_credentials'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: basic-auth
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'basic-auth.basicauth_credentials'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: ip-restriction
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: request-transformer
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: response-transformer
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: request-size-limiting
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: rate-limiting
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'rate-limiting.ratelimiting_metrics'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: response-ratelimiting
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: syslog
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: loggly
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: datadog
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: ldap-auth
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: statsd
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: bot-detection
+2025/03/06 20:11:13 [debug] 1#0: [kong] iam-ecs-credentials.lua:40 No ECS environment variables found for IAM
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: aws-lambda
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: request-termination
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: prometheus
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: proxy-cache
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: session
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'session.sessions'
+2025/03/06 20:11:13 [debug] 1#0: [lua] openssl.lua:5: [acme] using ffi, OpenSSL version linked: 1010114f
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: acme
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:242: loader_fn(): Loading custom plugin entity: 'acme.acme_storage'
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: grpc-gateway
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: grpc-web
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: pre-function
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: post-function
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: azure-functions
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: zipkin
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: opentelemetry
+2025/03/06 20:11:13 [debug] 1#0: [lua] plugins.lua:284: load_plugin(): Loading plugin: my-plugin
+2025/03/06 20:11:14 [debug] 1#0: [kong] init.lua:1121 ignoring validation on updated_at field
+2025/03/06 20:11:14 [debug] 1#0: [kong] init.lua:1121 ignoring validation on updated_at field
+2025/03/06 20:11:14 [debug] 1#0: [kong] init.lua:1121 ignoring validation on updated_at field
+2025/03/06 20:11:14 [debug] 1#0: [kong] init.lua:1121 ignoring validation on updated_at field
+2025/03/06 20:11:14 [notice] 1#0: using the "epoll" event method
+2025/03/06 20:11:14 [notice] 1#0: openresty/1.21.4.1
+2025/03/06 20:11:14 [notice] 1#0: OS: Linux 6.11.2-amd64
+2025/03/06 20:11:14 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1073741816:1073741816
+2025/03/06 20:11:14 [notice] 1#0: start worker processes
+2025/03/06 20:11:14 [notice] 1#0: start worker process 1259
+2025/03/06 20:11:14 [notice] 1#0: start worker process 1260
+2025/03/06 20:11:14 [notice] 1#0: start worker process 1261
+2025/03/06 20:11:14 [notice] 1#0: start worker process 1262
+2025/03/06 20:11:14 [notice] 1#0: start worker process 1263
+2025/03/06 20:11:14 [notice] 1#0: start worker process 1264
+2025/03/06 20:11:14 [notice] 1#0: start worker process 1265
+2025/03/06 20:11:14 [notice] 1#0: start worker process 1266
+2025/03/06 20:11:14 [debug] 1260#0: *1 [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:14 [debug] 1264#0: *3 [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:14 [debug] 1259#0: *2 [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:14 [debug] 1261#0: *4 [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:14 [debug] 1265#0: *5 [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:14 [debug] 1262#0: *6 [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:14 [debug] 1263#0: *7 [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:14 [debug] 1266#0: *8 [lua] globalpatches.lua:437: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2025/03/06 20:11:14 [notice] 1264#0: *3 [lua] globalpatches.lua:73: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2025/03/06 20:11:14 [notice] 1264#0: *3 [lua] globalpatches.lua:73: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2025/03/06 20:11:14 [notice] 1264#0: *3 [lua] globalpatches.lua:73: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2025/03/06 20:11:14 [notice] 1264#0: *3 [lua] globalpatches.lua:73: sleep(): executing a blocking 'sleep' (0.008 seconds), context: init_worker_by_lua*
+2025/03/06 20:11:14 [notice] 1265#0: *5 [lua] globalpatches.lua:73: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2025/03/06 20:11:14 [notice] 1260#0: *1 [lua] init.lua:240: purge(): [DB cache] purging (local) cache, context: init_worker_by_lua*
+2025/03/06 20:11:14 [notice] 1260#0: *1 [lua] init.lua:240: purge(): [DB cache] purging (local) cache, context: init_worker_by_lua*
+2025/03/06 20:11:14 [notice] 1260#0: *1 [kong] init.lua:519 declarative config loaded from /usr/local/kong/kong.yml, context: init_worker_by_lua*
+2025/03/06 20:11:14 [notice] 1265#0: *5 [lua] globalpatches.lua:73: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2025/03/06 20:11:14 [debug] 1264#0: *3 [lua] counter.lua:70: new(): start timer for shdict kong on worker 5
+2025/03/06 20:11:14 [info] 1264#0: *3 [kong] handler.lua:75 [acme] acme renew timer started on worker 5, context: init_worker_by_lua*
+2025/03/06 20:11:14 [debug] 1260#0: *1 [lua] counter.lua:70: new(): start timer for shdict kong on worker 1
+2025/03/06 20:11:14 [debug] 1264#0: *3 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 5
+2025/03/06 20:11:14 [debug] 1265#0: *5 [lua] counter.lua:70: new(): start timer for shdict kong on worker 6
+2025/03/06 20:11:14 [info] 1260#0: *1 [kong] handler.lua:75 [acme] acme renew timer started on worker 1, context: init_worker_by_lua*
+2025/03/06 20:11:14 [info] 1265#0: *5 [kong] handler.lua:75 [acme] acme renew timer started on worker 6, context: init_worker_by_lua*
+2025/03/06 20:11:14 [debug] 1260#0: *1 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 1
+2025/03/06 20:11:14 [debug] 1265#0: *5 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 6
+2025/03/06 20:11:14 [debug] 1259#0: *2 [lua] counter.lua:70: new(): start timer for shdict kong on worker 0
+2025/03/06 20:11:14 [info] 1259#0: *2 [kong] handler.lua:75 [acme] acme renew timer started on worker 0, context: init_worker_by_lua*
+2025/03/06 20:11:14 [debug] 1259#0: *2 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 0
+2025/03/06 20:11:14 [debug] 1261#0: *4 [lua] counter.lua:70: new(): start timer for shdict kong on worker 2
+2025/03/06 20:11:14 [info] 1261#0: *4 [kong] handler.lua:75 [acme] acme renew timer started on worker 2, context: init_worker_by_lua*
+2025/03/06 20:11:14 [debug] 1261#0: *4 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 2
+2025/03/06 20:11:15 [debug] 1266#0: *8 [lua] counter.lua:70: new(): start timer for shdict kong on worker 7
+2025/03/06 20:11:15 [info] 1266#0: *8 [kong] handler.lua:75 [acme] acme renew timer started on worker 7, context: init_worker_by_lua*
+2025/03/06 20:11:15 [debug] 1266#0: *8 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 7
+2025/03/06 20:11:15 [debug] 1263#0: *7 [lua] counter.lua:70: new(): start timer for shdict kong on worker 4
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:15 [info] 1263#0: *7 [kong] handler.lua:75 [acme] acme renew timer started on worker 4, context: init_worker_by_lua*
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:15 [debug] 1263#0: *7 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 4
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] upstreams.lua:86: loading upstreams dict into memory
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] upstreams.lua:108: empty upstreams dict. Could it be an uncatched database error?
+2025/03/06 20:11:15 [debug] 1259#0: *17 [lua] upstreams.lua:270: update_balancer_state(): update proxy state timer scheduled
+2025/03/06 20:11:15 [debug] 1259#0: *15 [lua] worker.lua:139: communicate(): 0 on (unix:/usr/local/kong/worker_events.sock) is ready
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:15 [debug] 1262#0: *6 [lua] counter.lua:70: new(): start timer for shdict kong on worker 3
+2025/03/06 20:11:15 [debug] 1260#0: *10 [lua] worker.lua:139: communicate(): 1 on (unix:/usr/local/kong/worker_events.sock) is ready
+2025/03/06 20:11:15 [debug] 1260#0: *12 [lua] upstreams.lua:270: update_balancer_state(): update proxy state timer scheduled
+2025/03/06 20:11:15 [debug] 1259#0: *13 [lua] broker.lua:73: broadcast_events(): event published to 3 workers
+2025/03/06 20:11:15 [debug] 1259#0: *13 [lua] broker.lua:73: broadcast_events(): event published to 3 workers
+2025/03/06 20:11:15 [debug] 1259#0: *15 [lua] callback.lua:114: do_event(): worker-events: handling event; source=mlcache, event=mlcache:purge:kong_core_db_cache, wid=1
+2025/03/06 20:11:15 [debug] 1259#0: *15 [lua] callback.lua:114: do_event(): worker-events: handling event; source=mlcache, event=mlcache:purge:kong_db_cache, wid=1
+2025/03/06 20:11:15 [debug] 1260#0: *10 [lua] callback.lua:114: do_event(): worker-events: handling event; source=mlcache, event=mlcache:purge:kong_core_db_cache, wid=1
+2025/03/06 20:11:15 [debug] 1260#0: *10 [lua] callback.lua:114: do_event(): worker-events: handling event; source=mlcache, event=mlcache:purge:kong_db_cache, wid=1
+2025/03/06 20:11:15 [debug] 1264#0: *21 [lua] upstreams.lua:270: update_balancer_state(): update proxy state timer scheduled
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:15 [info] 1262#0: *6 [kong] handler.lua:75 [acme] acme renew timer started on worker 3, context: init_worker_by_lua*
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:15 [debug] 1264#0: *19 [lua] worker.lua:139: communicate(): 5 on (unix:/usr/local/kong/worker_events.sock) is ready
+2025/03/06 20:11:15 [debug] 1264#0: *19 [lua] callback.lua:114: do_event(): worker-events: handling event; source=mlcache, event=mlcache:purge:kong_core_db_cache, wid=1
+2025/03/06 20:11:15 [debug] 1264#0: *19 [lua] callback.lua:114: do_event(): worker-events: handling event; source=mlcache, event=mlcache:purge:kong_db_cache, wid=1
+2025/03/06 20:11:15 [debug] 1262#0: *6 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 3
+2025/03/06 20:11:15 [debug] 1265#0: *311 [lua] upstreams.lua:270: update_balancer_state(): update proxy state timer scheduled
+2025/03/06 20:11:15 [debug] 1265#0: *309 [lua] worker.lua:139: communicate(): 6 on (unix:/usr/local/kong/worker_events.sock) is ready
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:15 [debug] 1266#0: *600 [lua] upstreams.lua:270: update_balancer_state(): update proxy state timer scheduled
+2025/03/06 20:11:15 [debug] 1266#0: *598 [lua] worker.lua:139: communicate(): 7 on (unix:/usr/local/kong/worker_events.sock) is ready
+2025/03/06 20:11:15 [debug] 1260#0: *9 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.0069444444444444, runable_jobs_avg: 1, alive_threads_avg: 144
+2025/03/06 20:11:15 [debug] 1259#0: *14 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.0069444444444444, runable_jobs_avg: 1, alive_threads_avg: 144
+2025/03/06 20:11:15 [debug] 1264#0: *18 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.0069444444444444, runable_jobs_avg: 1, alive_threads_avg: 144
+2025/03/06 20:11:15 [debug] 1265#0: *308 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.0069444444444444, runable_jobs_avg: 1, alive_threads_avg: 144
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:15 [debug] 1263#0: *747 [lua] upstreams.lua:270: update_balancer_state(): update proxy state timer scheduled
+2025/03/06 20:11:15 [debug] 1263#0: *745 [lua] worker.lua:139: communicate(): 4 on (unix:/usr/local/kong/worker_events.sock) is ready
+2025/03/06 20:11:15 [debug] 1266#0: *597 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.0069444444444444, runable_jobs_avg: 1, alive_threads_avg: 144
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:15 [debug] 1261#0: *894 [lua] upstreams.lua:270: update_balancer_state(): update proxy state timer scheduled
+2025/03/06 20:11:15 [debug] 1261#0: *892 [lua] worker.lua:139: communicate(): 2 on (unix:/usr/local/kong/worker_events.sock) is ready
+2025/03/06 20:11:15 [debug] 1263#0: *744 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.0069444444444444, runable_jobs_avg: 1, alive_threads_avg: 144
+2025/03/06 20:11:15 [debug] 1261#0: *891 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.0069444444444444, runable_jobs_avg: 1, alive_threads_avg: 144
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:465: init(): [dns-client] (re)configuring dns client
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:470: init(): [dns-client] staleTtl = 4
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:474: init(): [dns-client] noSynchronisation = false
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:493: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:533: init(): [dns-client] adding A-record from 'hosts' file: 7a98b47b6cf1 = 172.29.0.4
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:548: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:557: init(): [dns-client] validTtl = nil
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:598: init(): [dns-client] nameserver 127.0.0.11
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:603: init(): [dns-client] attempts = 5
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:610: init(): [dns-client] no_random = true
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:619: init(): [dns-client] timeout = 2000 ms
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:623: init(): [dns-client] ndots = 0
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:625: init(): [dns-client] search = localdomain
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:638: init(): [dns-client] badTtl = 1 s
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] client.lua:640: init(): [dns-client] emptyTtl = 30 s
+2025/03/06 20:11:15 [debug] 1262#0: *1041 [lua] upstreams.lua:270: update_balancer_state(): update proxy state timer scheduled
+2025/03/06 20:11:15 [debug] 1262#0: *1039 [lua] worker.lua:139: communicate(): 3 on (unix:/usr/local/kong/worker_events.sock) is ready
+2025/03/06 20:11:15 [debug] 1262#0: *1038 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.0069444444444444, runable_jobs_avg: 1, alive_threads_avg: 144
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:27 [my-plugin] ===== Incoming request received by Kong =====, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:28 [my-plugin] Request Method: POST, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:29 [my-plugin] Request Path: /token, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:30 [my-plugin] Filtered plugin config: {"access":"[function]","VERSION":"1.0.0","PRIORITY":900}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: referer = http://localhost:4200/, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: host = localhost:8000, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-mode = cors, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: content-length = 241, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: user-agent = Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-site = same-site, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-dest = empty, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: content-type = application/x-www-form-urlencoded, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: accept = application/json, text/plain, */*, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: accept-language = en-US,en;q=0.5, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: connection = keep-alive, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: accept-encoding = gzip, deflate, br, zstd, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:35 [my-plugin] Request Header: origin = http://localhost:4200, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:45 [my-plugin] Request Body: {"redirect_uri":"http://localhost:4200/login","client_id":"kong_client","grant_type":"authorization_code","code":"ab3935b1-3481-4ef8-a6a2-384850bc0bb6.f9f817a4-d132-4828-ba6e-31abbb073400.b4dd8f6a-1312-41ff-9516-d17a0834b589","client_secret":"YOUR_CLIENT_SECRET"}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [info] 1259#0: *1185 [kong] handler.lua:58 [my-plugin] Extracted code: ab3935b1-3481-4ef8-a6a2-384850bc0bb6.f9f817a4-d132-4828-ba6e-31abbb073400.b4dd8f6a-1312-41ff-9516-d17a0834b589, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/06 20:11:27 [error] 1259#0: *1185 [kong] init.lua:359 [my-plugin] /usr/local/share/lua/5.1/kong/plugins/my-plugin/handler.lua:61: attempt to index field 'discovery' (a nil value), client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+172.29.0.1 - - [06/Mar/2025:20:11:27 +0000] "POST /token HTTP/1.1" 500 46 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025/03/12 14:54:46 [debug] 1259#0: *14 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.030384471938218, runable_jobs_avg: 3.2162162162162, alive_threads_avg: 112.10810810811
+2025/03/12 14:54:46 [debug] 1260#0: *9 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.022796966399892, runable_jobs_avg: 2.2162162162162, alive_threads_avg: 112.10810810811
+2025/03/12 14:54:46 [debug] 1263#0: *744 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.02567689550933, runable_jobs_avg: 2.5675675675676, alive_threads_avg: 112.10810810811
+2025/03/12 14:54:47 [debug] 1264#0: *18 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.018529586832822, runable_jobs_avg: 1.9736842105263, alive_threads_avg: 111.23684210526
+2025/03/12 14:54:46 [debug] 1265#0: *308 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.021054570177259, runable_jobs_avg: 2.1842105263158, alive_threads_avg: 111.23684210526
+2025/03/12 14:54:47 [debug] 1261#0: *891 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.016139445287841, runable_jobs_avg: 1.6315789473684, alive_threads_avg: 111.23684210526
+2025/03/12 14:54:46 [debug] 1266#0: *597 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.021022184360396, runable_jobs_avg: 2.1578947368421, alive_threads_avg: 111.23684210526
+2025/03/12 14:54:46 [debug] 1262#0: *1038 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.018315325597438, runable_jobs_avg: 1.8378378378378, alive_threads_avg: 112.10810810811
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:27 [my-plugin] ===== Incoming request received by Kong =====, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:28 [my-plugin] Request Method: POST, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:29 [my-plugin] Request Path: /token, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:30 [my-plugin] Filtered plugin config: {"access":"[function]","VERSION":"1.0.0","PRIORITY":900}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: referer = http://localhost:4200/, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: host = localhost:8000, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-mode = cors, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: content-length = 241, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: user-agent = Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-site = same-site, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-dest = empty, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: content-type = application/x-www-form-urlencoded, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: accept = application/json, text/plain, */*, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: accept-language = en-US,en;q=0.5, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: connection = keep-alive, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: accept-encoding = gzip, deflate, br, zstd, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:35 [my-plugin] Request Header: origin = http://localhost:4200, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:45 [my-plugin] Request Body: {"redirect_uri":"http://localhost:4200/login","client_id":"kong_client","grant_type":"authorization_code","code":"b09eb0bc-b3d5-46f6-b7e2-ea70d6298452.54943139-1f63-4e91-91ca-9400cfa930ad.b4dd8f6a-1312-41ff-9516-d17a0834b589","client_secret":"YOUR_CLIENT_SECRET"}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [info] 1259#0: *1190 [kong] handler.lua:58 [my-plugin] Extracted code: b09eb0bc-b3d5-46f6-b7e2-ea70d6298452.54943139-1f63-4e91-91ca-9400cfa930ad.b4dd8f6a-1312-41ff-9516-d17a0834b589, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 14:55:37 [error] 1259#0: *1190 [kong] init.lua:359 [my-plugin] /usr/local/share/lua/5.1/kong/plugins/my-plugin/handler.lua:61: attempt to index field 'discovery' (a nil value), client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+172.29.0.1 - - [12/Mar/2025:14:55:37 +0000] "POST /token HTTP/1.1" 500 46 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025/03/12 14:56:24 [info] 1259#0: *1190 client 172.29.0.1 closed keepalive connection
+2025/03/12 15:04:46 [debug] 1263#0: *744 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.066279885604706, runable_jobs_avg: 2.3735144312394, alive_threads_avg: 36.244482173175
+2025/03/12 15:04:46 [debug] 1265#0: *308 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.062028179349366, runable_jobs_avg: 2.2322033898305, alive_threads_avg: 36.272881355932
+2025/03/12 15:04:46 [debug] 1260#0: *9 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.055195292781851, runable_jobs_avg: 1.9932203389831, alive_threads_avg: 36.454237288136
+2025/03/12 15:04:46 [debug] 1262#0: *1038 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.066315546948935, runable_jobs_avg: 2.4067796610169, alive_threads_avg: 36.433898305085
+2025/03/12 15:04:46 [debug] 1266#0: *597 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.058325257610458, runable_jobs_avg: 2.1188455008489, alive_threads_avg: 36.463497453311
+2025/03/12 15:04:47 [debug] 1259#0: *14 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.064738104755948, runable_jobs_avg: 2.3610169491525, alive_threads_avg: 36.440677966102
+2025/03/12 15:04:47 [debug] 1264#0: *18 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.048852373422423, runable_jobs_avg: 1.7741935483871, alive_threads_avg: 36.463497453311
+2025/03/12 15:04:47 [debug] 1261#0: *891 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.049120589803854, runable_jobs_avg: 1.7840136054422, alive_threads_avg: 36.464285714286
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:27 [my-plugin] ===== Incoming request received by Kong =====, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:28 [my-plugin] Request Method: POST, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:29 [my-plugin] Request Path: /token, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:30 [my-plugin] Filtered plugin config: {"access":"[function]","VERSION":"1.0.0","PRIORITY":900}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: referer = http://localhost:4200/, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: host = localhost:8000, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-mode = cors, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: content-length = 241, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: user-agent = Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-site = same-site, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-dest = empty, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: content-type = application/x-www-form-urlencoded, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: accept = application/json, text/plain, */*, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: accept-language = en-US,en;q=0.5, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: connection = keep-alive, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: accept-encoding = gzip, deflate, br, zstd, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: origin = http://localhost:4200, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:45 [my-plugin] Request Body: {"redirect_uri":"http://localhost:4200/login","client_id":"kong_client","grant_type":"authorization_code","code":"3806ca8c-c349-42a6-97d9-abca03a8044f.60257550-35ad-496f-93db-be4af8bdbd4c.b4dd8f6a-1312-41ff-9516-d17a0834b589","client_secret":"YOUR_CLIENT_SECRET"}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [info] 1259#0: *1439 [kong] handler.lua:58 [my-plugin] Extracted code: 3806ca8c-c349-42a6-97d9-abca03a8044f.60257550-35ad-496f-93db-be4af8bdbd4c.b4dd8f6a-1312-41ff-9516-d17a0834b589, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:09:43 [error] 1259#0: *1439 [kong] init.lua:359 [my-plugin] /usr/local/share/lua/5.1/kong/plugins/my-plugin/handler.lua:61: attempt to index field 'discovery' (a nil value), client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+172.29.0.1 - - [12/Mar/2025:15:09:43 +0000] "POST /token HTTP/1.1" 500 46 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:27 [my-plugin] ===== Incoming request received by Kong =====, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:28 [my-plugin] Request Method: POST, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:29 [my-plugin] Request Path: /token, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:30 [my-plugin] Filtered plugin config: {"access":"[function]","VERSION":"1.0.0","PRIORITY":900}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: referer = http://localhost:4200/, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: host = localhost:8000, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-mode = cors, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: content-length = 241, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: user-agent = Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-site = same-site, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-dest = empty, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: content-type = application/x-www-form-urlencoded, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: accept = application/json, text/plain, */*, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: accept-language = en-US,en;q=0.5, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: connection = keep-alive, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: accept-encoding = gzip, deflate, br, zstd, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:35 [my-plugin] Request Header: origin = http://localhost:4200, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:45 [my-plugin] Request Body: {"redirect_uri":"http://localhost:4200/login","client_id":"kong_client","grant_type":"authorization_code","code":"ca8067ed-3e72-41d1-8e08-9f869e3e7746.60257550-35ad-496f-93db-be4af8bdbd4c.b4dd8f6a-1312-41ff-9516-d17a0834b589","client_secret":"YOUR_CLIENT_SECRET"}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [info] 1259#0: *1439 [kong] handler.lua:58 [my-plugin] Extracted code: ca8067ed-3e72-41d1-8e08-9f869e3e7746.60257550-35ad-496f-93db-be4af8bdbd4c.b4dd8f6a-1312-41ff-9516-d17a0834b589, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:10:20 [error] 1259#0: *1439 [kong] init.lua:359 [my-plugin] /usr/local/share/lua/5.1/kong/plugins/my-plugin/handler.lua:61: attempt to index field 'discovery' (a nil value), client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+172.29.0.1 - - [12/Mar/2025:15:10:20 +0000] "POST /token HTTP/1.1" 500 46 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025/03/12 15:14:46 [debug] 1265#0: *308 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.075771996615905, runable_jobs_avg: 2.424703891709, alive_threads_avg: 32
+2025/03/12 15:14:46 [debug] 1262#0: *1038 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.073445431472081, runable_jobs_avg: 2.3502538071066, alive_threads_avg: 32
+2025/03/12 15:14:46 [debug] 1263#0: *744 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.072192796610169, runable_jobs_avg: 2.3101694915254, alive_threads_avg: 32
+2025/03/12 15:14:47 [debug] 1260#0: *9 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.071753384094755, runable_jobs_avg: 2.2961082910321, alive_threads_avg: 32
+2025/03/12 15:14:47 [debug] 1266#0: *597 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.075971752209062, runable_jobs_avg: 2.4805414551607, alive_threads_avg: 32.68358714044
+2025/03/12 15:14:47 [debug] 1264#0: *18 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.052242231638418, runable_jobs_avg: 1.7627118644068, alive_threads_avg: 33.905084745763
+2025/03/12 15:14:47 [debug] 1259#0: *14 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.065321550255537, runable_jobs_avg: 2.0902896081772, alive_threads_avg: 32
+2025/03/12 15:14:47 [debug] 1261#0: *891 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.054627279563828, runable_jobs_avg: 1.8426395939086, alive_threads_avg: 33.861252115059
+2025/03/12 15:24:46 [debug] 1265#0: *308 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.066796234486832, runable_jobs_avg: 2.1315345699831, alive_threads_avg: 31.964586846543
+2025/03/12 15:24:47 [debug] 1262#0: *1038 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.074348628091068, runable_jobs_avg: 2.3766891891892, alive_threads_avg: 31.981418918919
+2025/03/12 15:24:47 [debug] 1263#0: *744 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.072515718972116, runable_jobs_avg: 2.3203389830508, alive_threads_avg: 31.998305084746
+2025/03/12 15:24:47 [debug] 1260#0: *9 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.084635416666667, runable_jobs_avg: 2.7043918918919, alive_threads_avg: 31.976351351351
+2025/03/12 15:24:47 [debug] 1266#0: *597 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.084095057759372, runable_jobs_avg: 2.6908783783784, alive_threads_avg: 31.998310810811
+2025/03/12 15:24:47 [debug] 1264#0: *18 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.072916666666667, runable_jobs_avg: 2.3333333333333, alive_threads_avg: 32
+2025/03/12 15:24:47 [debug] 1261#0: *891 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.06618265993266, runable_jobs_avg: 2.1178451178451, alive_threads_avg: 32
+2025/03/12 15:24:47 [debug] 1259#0: *14 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.059080387205387, runable_jobs_avg: 1.8905723905724, alive_threads_avg: 32
+2025/03/12 15:34:47 [debug] 1265#0: *308 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.073695986813426, runable_jobs_avg: 2.3581081081081, alive_threads_avg: 31.998310810811
+2025/03/12 15:34:47 [debug] 1263#0: *744 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.078361344537815, runable_jobs_avg: 2.4991596638655, alive_threads_avg: 31.966386554622
+2025/03/12 15:34:47 [debug] 1262#0: *1038 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.082607323232323, runable_jobs_avg: 2.6430976430976, alive_threads_avg: 31.996632996633
+2025/03/12 15:34:47 [debug] 1266#0: *597 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.077202252238909, runable_jobs_avg: 2.4680134680135, alive_threads_avg: 31.981481481481
+2025/03/12 15:34:47 [debug] 1264#0: *18 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.082665023894863, runable_jobs_avg: 2.6178451178451, alive_threads_avg: 31.952861952862
+2025/03/12 15:34:47 [debug] 1261#0: *891 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.073796452702703, runable_jobs_avg: 2.3614864864865, alive_threads_avg: 32
+2025/03/12 15:34:47 [debug] 1260#0: *9 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.068560286677909, runable_jobs_avg: 2.1939291736931, alive_threads_avg: 32
+2025/03/12 15:34:48 [debug] 1259#0: *14 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.058238636363636, runable_jobs_avg: 1.8636363636364, alive_threads_avg: 32
+2025/03/12 15:44:47 [debug] 1263#0: *744 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.072002020701285, runable_jobs_avg: 2.3035413153457, alive_threads_avg: 31.994940978078
+2025/03/12 15:44:47 [debug] 1266#0: *597 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.073557129263651, runable_jobs_avg: 2.3518518518519, alive_threads_avg: 31.984848484848
+2025/03/12 15:44:47 [debug] 1265#0: *308 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.063236531986532, runable_jobs_avg: 2.023569023569, alive_threads_avg: 32
+2025/03/12 15:44:47 [debug] 1264#0: *18 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.074550338030664, runable_jobs_avg: 2.3758389261745, alive_threads_avg: 31.963087248322
+2025/03/12 15:44:47 [debug] 1261#0: *891 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.071969696969697, runable_jobs_avg: 2.2272727272727, alive_threads_avg: 31.949494949495
+2025/03/12 15:44:47 [debug] 1262#0: *1038 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.067174369747899, runable_jobs_avg: 2.1495798319328, alive_threads_avg: 32
+2025/03/12 15:44:47 [debug] 1260#0: *9 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.07820351758794, runable_jobs_avg: 2.5025125628141, alive_threads_avg: 32
+2025/03/12 15:44:48 [debug] 1259#0: *14 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.072899070945946, runable_jobs_avg: 2.3327702702703, alive_threads_avg: 32
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:27 [my-plugin] ===== Incoming request received by Kong =====, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:28 [my-plugin] Request Method: POST, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:29 [my-plugin] Request Path: /token, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:30 [my-plugin] Filtered plugin config: {"access":"[function]","VERSION":"1.0.0","PRIORITY":900}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: referer = http://localhost:4200/, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: host = localhost:8000, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-mode = cors, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: content-length = 241, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: user-agent = Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-site = same-site, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: sec-fetch-dest = empty, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: content-type = application/x-www-form-urlencoded, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: accept = application/json, text/plain, */*, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: accept-language = en-US,en;q=0.5, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: connection = keep-alive, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: accept-encoding = gzip, deflate, br, zstd, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:35 [my-plugin] Request Header: origin = http://localhost:4200, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:45 [my-plugin] Request Body: {"redirect_uri":"http://localhost:4200/login","client_id":"kong_client","grant_type":"authorization_code","code":"a8a64138-051a-47b1-9e62-8ce9463c83ba.0a041953-301b-4522-9fc0-08b2f2b483ba.b4dd8f6a-1312-41ff-9516-d17a0834b589","client_secret":"YOUR_CLIENT_SECRET"}, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [info] 1259#0: *2339 [kong] handler.lua:58 [my-plugin] Extracted code: a8a64138-051a-47b1-9e62-8ce9463c83ba.0a041953-301b-4522-9fc0-08b2f2b483ba.b4dd8f6a-1312-41ff-9516-d17a0834b589, client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+2025/03/12 15:46:00 [error] 1259#0: *2339 [kong] init.lua:359 [my-plugin] /usr/local/share/lua/5.1/kong/plugins/my-plugin/handler.lua:61: attempt to index field 'discovery' (a nil value), client: 172.29.0.1, server: kong, request: "POST /token HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:4200/"
+172.29.0.1 - - [12/Mar/2025:15:46:00 +0000] "POST /token HTTP/1.1" 500 46 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025/03/12 15:54:47 [debug] 1263#0: *744 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.075790472175379, runable_jobs_avg: 2.424957841484, alive_threads_avg: 31.996627318718
+2025/03/12 15:54:47 [debug] 1264#0: *18 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.075293624161074, runable_jobs_avg: 2.4093959731544, alive_threads_avg: 32
+2025/03/12 15:54:47 [debug] 1265#0: *308 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.060924369747899, runable_jobs_avg: 1.9495798319328, alive_threads_avg: 32
+2025/03/12 15:54:47 [debug] 1266#0: *597 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.070945945945946, runable_jobs_avg: 2.2702702702703, alive_threads_avg: 32
+2025/03/12 15:54:47 [debug] 1262#0: *1038 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.081365935919056, runable_jobs_avg: 2.6037099494098, alive_threads_avg: 32
+2025/03/12 15:54:47 [debug] 1261#0: *891 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.080766810789881, runable_jobs_avg: 2.5771812080537, alive_threads_avg: 31.968120805369
+2025/03/12 15:54:47 [debug] 1260#0: *9 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.053699409780776, runable_jobs_avg: 1.7183811129848, alive_threads_avg: 32
+2025/03/12 15:54:48 [debug] 1259#0: *14 [lua] super.lua:161: scaling_log(): [timer-ng] load_avg: 0.083158263305322, runable_jobs_avg: 2.6571428571429, alive_threads_avg: 31.976470588235
