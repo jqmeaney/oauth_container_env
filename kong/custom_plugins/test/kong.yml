@@ -1,0 +1,36 @@
+_format_version: "1.1"
+
+services:
+  - name: sso-service
+    url: http://keycloak:8005/realms/sectestapp/protocol/openid-connect/token
+
+    routes:
+      - name: token-route
+        methods:
+          - POST
+        paths:
+          - /token
+        strip_path: false
+
+plugins:
+  - name: my-plugin
+    service: sso-service
+    config:
+      discovery: "http://keycloak:8005/realms/sectestapp/.well-known/openid-configuration"
+      client_id: "stakong"
+      client_secret: "mxTGKX1JoED3adWuFSexmWaCaUAd9Bkf"
+      redirect_uri: "http://localhost:8000/callback"
+
+  - name: cors
+    config:
+      origins:
+        - http://localhost:4200
+      methods:
+        - GET
+        - POST
+        - OPTIONS
+      headers:
+        - Accept
+        - Authorization
+        - Content-Type
+      credentials: true
